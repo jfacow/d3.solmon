@@ -1,9 +1,0 @@
-version: '3'
-services:
-  d3:
-    ports:
-     - "80:80"
-    image: "centos:7"
-    volumes:
-     - .:/var/www/html/
-
